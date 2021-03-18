@@ -4,9 +4,20 @@
     margin: 0;
 }
 
+/* This starts the body and general text styling.  */
 body {
     background-color: #d9dcd6;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+/* This ends the body and general text styling. */
 
 /* This starts the styling for the header which contains the list nav.  */
 header {
@@ -41,18 +52,10 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
 /* This ends the styling for the header which contains the list nav.  */
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-p {
-    font-size: 16px;
-}
-
+/* This starts the styling for the banner image. */
 .banner {
     height: 800px;
     width: 100%;
@@ -62,7 +65,7 @@ p {
     background-position: center;
 
 }
-
+/* This ends the styling for the banner image. */
 
 /* This starts the styling for the main sections. */
 main {
@@ -143,4 +146,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
-/* This ends the styling for the footer. */
+/* This ends the styling for the footer. */  
